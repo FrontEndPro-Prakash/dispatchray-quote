@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AUTO TRANSPORTATION QUOTE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel=stylesheet /> 
+</head>
+<body>
+	<div class="cust-container">
+		<header class="header-view">
+			<h2>AUTO TRANSPORTATION QUOTE</h2>
+			<img src="images/Multycarcarrier.jpg">
+		</header>
+		<section>
+			<!---Start Step1--->
+			<div class="form_view">
+				<div class="form_group">
+					<label class="field-txt">From</label>
+					<input type="text" class="form_control" placeholder="Choose City and State or Zip">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">To</label>
+					<input type="text" class="form_control" placeholder="Choose City and State or Zip">
+				</div>
+				<div class="btn-row">
+					<a class="btn-view" href="#">NEXT</a>
+				</div>
+			</div>
+			<!---End Step1--->
+			
+			<!---Start Step2--->
+			<div class="form_view form_box_view">
+				<div class="form_group">
+					<label class="field-txt">Year</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Make</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Model</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Type</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="btn-row radio-btn-row">
+					<label class="btn-radio"><input type="radio" name="radio" value="running"> Running</label>
+					<label class="btn-radio"><input type="radio" name="radio" value="not-running">Not Running</label>
+				</div>
+				<div class="btn-row">
+					<a class="btn-view" href="#">NEXT</a>
+				</div>
+			</div>
+			<!---End Step2--->
+			
+			<!---Start Step3--->
+			<div class="form_view form_box_view">
+				<div class="form_group">
+					<label class="field-txt">Pickup Date</label>
+					<input type="date" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Name</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Phone</label>
+					<input type="text" class="form_control">
+				</div>
+				<div class="form_group">
+					<label class="field-txt">Email</label>
+					<input type="email" class="form_control">
+				</div>
+				<div class="btn-row">
+					<a class="btn-view" id="open-modal" href="javascript:void(0)">Submit</a>
+				</div>
+			</div>
+			<!---End Step3--->
+			
+			<div class="price_view">
+				<div class="price_group">
+					<img src="images/CarShippingBlue.jpg">
+					<p>Car Shipping Rate<span>$0.50 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/Truckshippingblue.jpg">
+					<p>Truck Shipping Rate<span>$0.75 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/Motorcycleshippingblue.jpg">
+					<p>Motorcycle Shipping Rate<span>$0.35 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/Boatshippingblue.jpg">
+					<p>Boat Shipping Rate<span>$1.00 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/Semitruckshipping.jpg">
+					<p>Semi Truck Shipping Rate<span>$3.00 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/oversizedshipping.jpg">
+					<p>Oversized Shipping Rate<span>$4.00 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/RVShippingblue.jpg">
+					<p>RV Buss Shipping Rate<span>$3.50 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/Tractorshipping.jpg">
+					<p>Tractor Shipping Rate<span>$2.00 RPM</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/peopleview.jpg">
+					<p>People View This<span>300</span></p>
+				</div>
+				<div class="price_group">
+					<img src="images/apply.jpg">
+					<p>People Apply this Quote<span>100</span></p>
+				</div>
+			</div>
+		</section>
+		<footer class="footer-view">
+			<h3>
+				<span>Powered by</span>
+				<span>DISPATCHRAY</span>
+				<span><a href="tel:708-298-4496">708-298-4496</a> <a href="mailto:info@dispatchray.com">info@dispatchray.com</a></span>
+				<span>Licensed Bonded MC 679938 and All carriers insured 100%</span>
+			</h3>
+			<div class="foot-images">
+				<a href="#"><img src="images/fmcsa.jpg"></a>
+				<a href="#"><img src="images/google5star.png"></a>
+				<a href="#"><img src="images/bbb.png"></a>
+			</div>
+			<div class="copyright">Copyright 2020</div>
+		</footer>
+	</div>
+</body>
+<!-- Start Modal -->
+<div id="modal-area" class="modal">
+	<div class="modal-content">
+		<h2>AUTO TRANSPORTATION QUOTE</h2>
+		<span class="close">&times;</span>
+		<div class="field-area">
+			<div class="field-box">
+				<label>From</label>
+				<span>Chandigarh</span>
+			</div>
+			<div class="field-box">
+				<label>To</label>
+				<span>Delhi</span>
+			</div>
+			<div class="field-box">
+				<label>Year</label>
+				<span>2007</span>
+			</div>
+			<div class="field-box">
+				<label>Make</label>
+				<span>Honda</span>
+			</div>
+			<div class="field-box">
+				<label>Model</label>
+				<span>2007</span>
+			</div>
+			<div class="field-box">
+				<label>Type</label>
+				<span>Heavy</span>
+			</div>
+			<div class="field-box">
+				<label>Running Status</label>
+				<span>Not Running</span>
+			</div>
+			<div class="field-box">
+				<label>Pickup Date</label>
+				<span>06/06/2020</span>
+			</div>
+			<div class="field-box">
+				<label>Name</label>
+				<span>John</span>
+			</div>
+			<div class="field-box">
+				<label>Phone</label>
+				<span>0123456789</span>
+			</div>
+			<div class="field-box">
+				<label>Email</label>
+				<span>email@gmail.com</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Modal -->
+<!-- Start JS -->
+<script>
+var modal = document.getElementById("modal-area");
+var btn = document.getElementById("open-modal");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<!-- End JS -->
+</html>
